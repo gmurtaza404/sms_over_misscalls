@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvUserNotification"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.99"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/bRefresh"
+        android:layout_width="146dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="refresh" />
+
+    <Button
+        android:id="@+id/bCall"
+        android:layout_width="145dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="call" />
+
+    <Button
+        android:id="@+id/bReceiverMode"
+        android:layout_width="259dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="receiver mode off" />
+
+    <ProgressBar
+        android:id="@+id/pbCallsleft"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="202dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/bReset"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="reset" />
+
+    <Button
+        android:id="@+id/bExport"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="export" />
+
+    <Button
+        android:id="@+id/bSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="settings" />
+
+    <Button
+        android:id="@+id/bUpdateSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UpdateSettings" />
+
+    <EditText
+        android:id="@+id/et_text1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/b_send"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="send" />
+
+</LinearLayout>
